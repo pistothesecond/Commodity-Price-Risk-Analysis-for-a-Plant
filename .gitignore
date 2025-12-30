@@ -1,0 +1,14 @@
+# Ignore Python's temporary worker files
+__pycache__/
+*.py[cod]
+
+# Ignore your data files (if they are large or private)
+data/
+
+# Ignore local environment/settings
+.venv/
+.env
+
+# Ignore large output files (keep your figures but hide big raw result tables)
+outputs/*.csv
+outputs/*.xlsx
